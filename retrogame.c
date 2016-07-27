@@ -113,12 +113,32 @@ struct {
 	// (using HDMI or composite instead), as with our original
 	// retro gaming guide.
 	// Input   Output (from /usr/include/linux/input.h)
-	{  25,     KEY_LEFT     },   // Joystick (4 pins)
-	{   9,     KEY_RIGHT    },
-	{  10,     KEY_UP       },
+	{  27,     KEY_LEFT     },   // Joystick (4 pins)
+	{  22,     KEY_RIGHT    },
+	{  4,     KEY_UP       },
 	{  17,     KEY_DOWN     },
-	{  23,     KEY_LEFTCTRL },   // A/Fire/jump/primary
-	{   7,     KEY_LEFTALT  },   // B/Bomb/secondary
+	{  25,     KEY_SPACE },   // A
+	{   24,     KEY_LEFTALT  },   // B
+	{   14,	   KEY_D }, //TL
+	{  15,	   KEY_X }, //X	
+	{  18,	   KEY_Y }, //Y
+        {  23,	  KEY_C }, //TR
+	{  10,	   KEY_ENTER }, //Start
+	{  9,	   KEY_RIGHTSHIFT }, //Select
+
+        {  6,     KEY_Q     }, 
+        {  13,     KEY_W    },
+        {  11,     KEY_E       },
+        {  5,     KEY_R     },
+        {  20,     KEY_T },   // A
+        {   21,     KEY_A  },   // B
+        {   8,    KEY_U }, //TL
+        {  7,     KEY_I }, //X
+        {  12,     KEY_O }, //Y
+        {  16,    KEY_P }, //TR
+        {  19,     KEY_S }, //Start
+        {  26,      KEY_F }, //Select
+	
 	// For credit/start/etc., use USB keyboard or add more buttons.
 	{  -1,     -1           } }; // END OF LIST, DO NOT CHANGE
 
