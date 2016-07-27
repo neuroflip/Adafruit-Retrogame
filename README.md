@@ -1,6 +1,10 @@
 Adafruit-Retrogame
 ==================
 
+.neuroflip.
+Custom configuration for 2p 6+2 buttons (a,b,x,y,L1,R1,start, select)
+------------------
+
 Raspberry Pi GPIO-to-USB utility for classic game emulators.
 
 How-to: http://learn.adafruit.com/retro-gaming-with-raspberry-pi
